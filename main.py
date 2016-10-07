@@ -74,7 +74,7 @@ def main():
 
     while 1:
         print()
-        input_text = input('Enter NUMBERS IN TABLE separated by space to see score: \n(or print \'close\' to exit) ')
+        input_text = input('Enter NUMBERS of two teams FROM TABLE separated by space to see score of their game: \n(or print \'close\' to exit) ')
         if input_text == 'close':
             break
         teams = input_text.split(' ')
